@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, grey, white); /* Light blue gradient */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #000000; /* black */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff; /* White text on black background */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000; /* black */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+button {
+    background-color: #000000; /* black */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000ff; /* Darker teal for hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
